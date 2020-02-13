@@ -98,6 +98,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intent1 = new Intent(this,register.class);
         startActivity(intent1);
     }
+    //    private void checkFirebaseForEmail() {
+//        databaseReference.child("Users").child("id").child("email").addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                if(!dataSnapshot.exists()){
+//                    Toast.makeText(MainActivity.this, "User does not exits Please register", Toast.LENGTH_SHORT).show();
+//                    progressBar.setVisibility(View.GONE);
+//                }
+//            }
 }
 
 
